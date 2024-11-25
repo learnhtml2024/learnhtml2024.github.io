@@ -5,29 +5,383 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <title>Bella Cucina</title>
+    <title>Bella Cuciana</title>
 </head>
 
 <body>
-    <h1>Welcome to Bella Cucina</h1>
-    <ul>
-        <li>Home</li>
-        <li> Menu
+    <div class="navbar">
+        <div class="logo">
+            <img src="../images/logo.jpg"></img>
+        </div>
+        <div class="links">
             <ul>
-                <li>Fettuccine Alfredo</li>
-                <li>(Fried) Ravioli</li>
-                <li>Lasagna</li>
-                <li>“Fake” Meatballs?</li>
-                <li>Eggplant Parmesan</li>
-                <li>Green Pesto Pasta</li>
-                <li>Red Pesto Pasta</li>
-                <li>Marinara Pasta</li>
-                <li>Pizza</li>
-                <li>Breadsticks</li>
-                <li>Soups (Wedding soup)</li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#process">Processes</a></li>
+                <li><a href="contact.html" target="_blank">Contact Us</a></li>
+                <li><a href="references.html" target="_blank">Reference Page</a></li>
             </ul>
-        </li>
-        <li>Processes</li>
-    </ul>
+        </div>
+    </div>
+    <div class="main">
+        <div id="menu" class="menu-container">
+            <h1>Menus</h1>
+
+            <div class="appetizers-container">
+                <div>
+                    <h2>Appetizers</h2>
+                </div>
+                <div class="appetizer">
+                    <div class="menu-text">
+                        <h3>Breadsticks (Vegan) | Complimentary!</h3>
+                        <p>These masterpieces baked to perfection and lightly dusted with oil,
+                            provide the perfect start to your meal!
+                        </p>
+                    </div>
+                    <div class="menu-image">
+                        <img src="../images/bread-sticks.jpg" alt="Breadsticks">
+                    </div>
+                </div>
+                <div class="appetizer">
+                    <div class="menu-text">
+                        <h3>Fried Ravioli | $15.99 | 5 piece!</h3>
+                        <p>Our ravioli is filled with five cheeses (mozzarella, parmesan, Pecorino
+                            Romano,
+                            fontina, and
+                            ricotta)
+                            and then deep fried to perfection. Served with a side of our famous marinara
+                            sauce.
+                        </p>
+                    </div>
+                    <div class="menu-image">
+                        <img src="../images/ravioli.jpg" alt="Fried Ravioli">
+                    </div>
+                </div>
+                <div class="appetizer">
+                    <div class="menu-text">
+                        <h3>Meatballs (Vegan) | $7.99 | 5 piece</h3>
+                        <p>An italian classic with our own spin, made with cannellini beans and oats,
+                            instead of beef. Topped with marinara sauce.
+                        </p>
+                    </div>
+                    <div class="menu-image">
+                        <img src="../images/meatballs.jpg" alt="Meatballs">
+                    </div>
+                </div>
+                <div class="appetizer">
+                    <div class="menu-text">
+                        <h3>Wedding Soup (Vegan) | $5.99</h3>
+                        <p>Our fresh (vegan) meatballs, pasta, and seasonal vegetable assortment
+                            are perfectly complimented with our vegetable broth, made daily with fresh
+                            herbs.
+                        </p>
+                    </div>
+                    <div class="menu-image">
+                        <img src="../images/weddingsoup.jpg" alt="Wedding Soup">
+                    </div>
+                </div>
+                <div class="appetizer">
+                    <div class="menu-text">
+                        <h3>Salad | $10.99 | All You Can Eat</h3>
+                        <p>Our house-made italian dressing could not go better with lettuce straight
+                            from the
+                            farm,
+                            croutons baked daily in our ovens, onions, peppers, tomatoes, and parmesan
+                            cheese.
+                        </p>
+                    </div>
+                    <div class="menu-image">
+                        <img src="../images/salad.jpg" alt="Salad">
+                    </div>
+                </div>
+            </div>
+
+            <div class="entrees-container">
+                <div>
+                    <h2>Entrées</h2>
+                </div>
+                <div class="entrees">
+                    <div class="menu-text">
+                        <h3>Fettuccine Alfredo | $20.99</h3>
+                        <p>Our freshly made pasta is cooked to perfection and tossed with cream,
+                            parmesan cheese, fresh parsley, and a touch of garlic.
+                        </p>
+                    </div>
+                    <div class="menu-image">
+                        <img src="../images/fettucine.jpg" alt="Fettuccine Alfredo">
+                    </div>
+                </div>
+                <div class="entrees">
+                    <div class="menu-text">
+                        <h3>Eggplant Parmesan (Vegan) | $23.99</h3>
+                        <p>Our crispy eggplant is fried fresh and then topped with homemade marinara.
+                            Comes with a fresh side of spaghetti marinara and vegan mozzarella.
+                        </p>
+                    </div>
+                    <div class="menu-image">
+                        <img src="../images/eggplant.jpg" alt="Eggplant Parmesan">
+                    </div>
+                </div>
+                <div class="entrees">
+                    <div class="menu-text">
+                        <h3>Penne alla Vodka (Vegan) | $20.99</h3>
+                        <p>This fan favorite is as delicious as ever. Penne pasta is cooked in our
+                            house made
+                            pink
+                            vodka sauce. Then, doused in our five cheese blend, bringing even more
+                            flavor to
+                            your dining
+                            experience.
+                        </p>
+                    </div>
+                    <div class="menu-image">
+                        <img src="../images/pennealla.jpg" alt="Penne alla Vodka">
+                    </div>
+                </div>
+                <div class="entrees">
+                    <div class="menu-text">
+                        <h3>Lasagna | $25.99</h3>
+                        <p> Our pasta is layered with our five cheese blend, housemade marinara
+                            (sauce substitutes upon request), and even more delicious ricotta.
+                        </p>
+                    </div>
+                    <div class="menu-image">
+                        <img src="../images/lasagna.jpg" alt="Lasagna">
+                    </div>
+                </div>
+            </div>
+
+            <div class="pasta-container">
+                <div>
+                    <h2>Make Your Own Pasta | $13.99</h2>
+                </div>
+                <div class="pasta">
+                    <div class="menu-text">
+                        <h3>Choose Your Pasta (All Vegan)</h3>
+                        <p>
+                        <ul>
+                            <li>Spaghetti</li>
+                            <li>Fettuccine</li>
+                            <li>Penne</li>
+                            <li>Conchigliette</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="pasta">
+                    <div class="menu-text">
+                        <h3>Choose Your Sauce</h3>
+                        <p>
+                        <ul>
+                            <li>Green Pesto (Contains Nuts)</li>
+                            <ul>
+                                <li>This dish has fresh basil, garlic, pine nuts, olive oil, and parmesan
+                                    cheese,
+                                    giving our sauce a
+                                    rich, nutty flavor.</li>
+                            </ul>
+                            <li>Red Pesto (Contains Nuts)</li>
+                            <ul>
+                                <li>Our green pesto is made even better by incorporating sun-dried tomatoes
+                                    and
+                                    roasted red peppers.
+                                    This adds to the flavor, creating a savory, earthy twist.
+                                </li>
+                            </ul>
+                            <li>Marinara (Vegan)</li>
+                            <ul>
+                                <li>Our signature sauce can’t get any better. Made mostly of tomatoes,
+                                    garlic,
+                                    onions, and herbs.
+                                    This is a sweeter sauce that can always be enjoyed.
+                                </li>
+                            </ul>
+                            <li>Alfredo</li>
+                            <ul>
+                                <li>This dish contains heavy cream, cheese, and fresh herbs come together
+                                    for a
+                                    rich, creamy sauce.
+                                </li>
+                            </ul>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="pasta">
+                    <div class="menu-text">
+                        <h3>Feeling Cheesy?</h3>
+                        <p>
+                        <ul>
+                            <li>No Cheese (Vegan)</li>
+                            <li>Mozzarella (Vegan)</li>
+                            <li>Five Cheese Blend</li>
+                            <li>Conchigliette</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="pasta">
+                    <div class="menu-text">
+                        <h3>More Protein?</h3>
+                        <p>
+                        <ul>
+                            <li>Meatballs (Vegan) + $2.99</li>
+                            <li>Mushrooms (Vegan) + $0.99</li>
+                            <li>Tofu, sauteed in sauce of choice (Vegan) + $1.99</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="pizza-container">
+                <div>
+                    <h2>Pizza | Feeds 3-4</h2>
+                </div>
+                <div class="pizza">
+                    <div class="menu-text">
+                        <h3>Margherita Pizza | $12.99</h3>
+                        <p>You can’t go wrong with five cheeses, sun dried tomatoes,and basil.
+                        </p>
+                    </div>
+                    <div class="menu-image">
+                        <img src="../images/mpizza.jpg" alt="Margherita Pizza">
+                    </div>
+                </div>
+                <div class="pizza">
+                    <div class="menu-text">
+                        <h3>Veggie Pizza (Vegan)| $14.99</h3>
+                        <p>It's topped with marinara, vegan mozzarella, peppers basil,
+                            mushrooms, olives, sun dried tomatoes, and onions.
+                        </p>
+                    </div>
+                    <div class="menu-image">
+                        <img src="../images/vpizza.jpg" alt="Veggie Pizza">
+                    </div>
+                </div>
+                <div class="pizza">
+                    <div class="menu-text">
+                        <h3>"Pepperoni" Pizza (Vegan)| $15.99</h3>
+                        <p>Our pepperoni is made of wheat gluten, giving it a convincing
+                            texture and taste. Marinara and vegan mozzarella pull the dish together.
+                        </p>
+                    </div>
+                    <div class="menu-image">
+                        <img src="../images/ppizza.jpg" alt="Pepperoni Pizza">
+                    </div>
+                </div>
+                <div class="pizza">
+                    <div class="menu-text">
+                        <h3>Build Your Own | Price May Vary</h3>
+                        <p>Choose from our wide selection of toppings to create your own perfect
+                            pizza.
+                            Ask your waiter for suggestions and topping list.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="desserts-container">
+                <div>
+                    <h2>Desserts</h2>
+                </div>
+                <div class="desserts">
+                    <div class="menu-text">
+                        <h3>Tiramisu | $8.99</h3>
+                        <p>Your favorite coffee soaked ladies finger layered between mascarpone cream
+                            and a dusting of cocoa powder.
+                        </p>
+                    </div>
+                    <div class="menu-image">
+                        <img src="../images/tira.jpg" alt="Tiramisu">
+                    </div>
+                </div>
+                <div class="desserts">
+                    <div class="menu-text">
+                        <h3>Cannoli | $5.99 </h3>
+                        <p>A crispy layer of pastry encasing sweet ricotta cream.
+                        </p>
+                    </div>
+                    <div class="menu-image">
+                        <img src="../images/cannoli.jpg" alt="Cannoli">
+                    </div>
+                </div>
+                <div class="desserts">
+                    <div class="menu-text">
+                        <h3>Gelato | $6.99</h3>
+                        <p>Try any 3 of our wonderful gelato flavors, perfect for any occasion.
+                        <ul>
+                            <li>Pistachio</li>
+                            <li>Hazelnut</li>
+                            <li>Caramel</li>
+                            <li>Raspberry</li>
+                            <li>Vanilla</li>
+                        </ul>
+                        </p>
+                    </div>
+                    <div class="menu-image">
+                        <img src="../images/gelato.jpg" alt="Gelato">
+                    </div>
+                </div>
+                <div class="desserts">
+                    <div class="menu-text">
+                        <h3>Vanilla Panna Cotta | $9.99</h3>
+                        <p>A custard dessert made with fresh cream and vanilla with a dash of sugar.
+                        </p>
+                    </div>
+                    <div class="menu-image">
+                        <img src="../images/panna.jpg" alt="Vanilla Panna Cotta">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="process" class="process-wrapper process-container">
+        <div>
+            <h1>Process</h1>
+        </div>
+        <div class="table-text">
+            <h2>Farm-to-table</h2>
+            <p>Our teams make sure that all of our foods and products come from the same farm,
+                that does not use pesticides, as to not cross contaminate. This is because
+                we are all vegetarian, and a little bit of a vegan restaurant. We send a team
+                to the farm and make sure that there is no cross contamination when loading the
+                ingredients into the truck. Then our team drives the truck to our restaurant
+                and begins loading the contents into our fridges, pantries, and freezer that
+                were all previously wiped down. After that, we wash all of the vegetables and
+                fruits thoroughly in salt water. We let them soak for about 20-30 minutes to
+                get rid of any bacteria and contaminants. All of our kitchen equipment is
+                thoroughly cleaned every day, two times a day, and our staff wash their hands
+                before every meal they make. This is our process: from farm to table!
+            </p>
+        </div>
+        <div class="table-image">
+            <img src="../images/process.jpg" alt="Farm-To-Table">
+        </div>
+    </div>
+
+    <div id="process" class="process-wrapper process-container">
+        <div class="table-image">
+            <img src="../images/ingredients.jpg" alt="Farm-To-Table">
+        </div>
+
+        <div class="table-text">
+            <h2>Handling Ingredients</h2>
+            <p>To ensure that all of our food is fresh and organic, we make all of our breads,
+                cheeses, sauces, and the various pastas by hand. We prepare these ingredients
+                at the start of each day; this way you get the most flavor out of your dish.
+                We absolutely refuse to reheat all of our dishes before sending them to customers,
+                which is why we freshly cook everything beforehand. For example, the pasta will
+                be boiled as soon as you order and all of our fried dishes will be warm and crispy.
+                At our restaurant, we hope to mimic that of a homely feeling- like a warm hug of
+                flavors.
+            </p>
+        </div>
+
+    </div>
+
 </body>
+
 </html>
