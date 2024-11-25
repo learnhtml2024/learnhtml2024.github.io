@@ -1,7 +1,23 @@
 body {
-    background-color: aquamarine;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aqua;
 }
-h1 {
-    /*text-align: center;*/
+/* .col1
+{
+    background-color: aqua;
 }
+
+.col2
+{
+    background-color:bisque;
+}
+
+.col3
+{
+    background-color:orange;
+}
+
+.col123
+{
+    background-color:lightgreen;
+} */
