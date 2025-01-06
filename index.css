@@ -5,7 +5,7 @@
 
 .navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: #004aad;
   position: fixed;
   top: 0;
   bottom: 0;
@@ -82,7 +82,7 @@
 {
   overflow: hidden;
   width: 100%;
-  background-color: antiquewhite;
+  background-color: aliceblue;
   margin: 16px;
   height: 500px;
 }
@@ -107,19 +107,22 @@
 {
   overflow: hidden;
   width: 100%;
-  background-color:rgb(228, 245, 255)
+  background-color:rgb(228, 245, 255);
+  
 }
 
 .appetizers-container
 {
   overflow: hidden;
   width: 100%;
-  background-color:rgb(29, 117, 168)
+  background-color:rgb(29, 117, 168);
+  
 }
 
 .appetizers-container h2
 {
   color: white;
+  
 }
 
 .appetizer
@@ -127,28 +130,21 @@
   overflow: hidden;
   width: 100%;
   background-color:rgb(169, 204, 233);
-}
-
-.menu-text
-{
-
-}
-
-.menu-image
-{
-
+  
 }
 
 .entrees-container
 {
   overflow: hidden;
   width: 100%;
-  background-color:rgb(29, 117, 168)
+  background-color:rgb(29, 117, 168);
+  
 }
 
 .entrees-container h2
 {
   color: white;
+  
 }
 
 .entrees
@@ -156,17 +152,21 @@
   overflow: hidden;
   width: 100%;
   background-color:rgb(169, 204, 233);
+  
+
 }
 
 .pasta-container
 {
   overflow: hidden;
   width: 100%;
-  background-color:rgb(29, 117, 168)
+  background-color:rgb(29, 117, 168);
+  
 }
 .pasta-container h2
 {
   color: white;
+  
 }
 
 .pasta
@@ -174,18 +174,24 @@
   overflow: hidden;
   width: 100%;
   background-color:rgb(169, 204, 233);
+  
+
 }
 
 .pizza-container
 {
   overflow: hidden;
   width: 100%;
-  background-color:rgb(29, 117, 168)
+  background-color:rgb(29, 117, 168);
+  
+
 }
 
 .pizza-container h2
 {
   color: white;
+  
+
 }
 
 .pizza
@@ -193,18 +199,22 @@
   overflow: hidden;
   width: 100%;
   background-color:rgb(169, 204, 233);
+  
+
 }
 
 .desserts-container
 {
   overflow: hidden;
   width: 100%;
-  background-color:rgb(29, 117, 168)
+  background-color:rgb(29, 117, 168);
+  
 }
 
 .desserts-container h2
 {
   color: white;
+  
 }
 
 .desserts
@@ -212,8 +222,14 @@
   overflow: hidden;
   width: 100%;
   background-color:rgb(169, 204, 233);
+  
+
 }
 
 body{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.padding {
+  padding-left: 10px;
 }
